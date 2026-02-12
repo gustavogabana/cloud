@@ -23,3 +23,9 @@ These goals is the reason why AWS operates in regions as close to customers as p
 ### AZs
 
 Within each region, AWS has Availability Zones (AZs). There are three or more AZs per region for redundancy. Within each AZ, there is one or more datacenter with redundant power, connectivity, and networking.
+
+## Shared Responsability Model
+
+Both the client and AWS are responsible to ensure that the application and the AWS resources that it use are secure.
+
+AWS is responsible for security on the cloud, the customer is responsible for security in the cloud.
